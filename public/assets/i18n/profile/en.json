@@ -1,0 +1,8 @@
+{
+  "orders": "Your Orders",
+  "orderId": " Order Id",
+  "orderDate": "Order Date",
+  "payment": "Payment",
+  "deliveryAddress": "Delivery Address",
+  "quantity": "Quantity"
+}

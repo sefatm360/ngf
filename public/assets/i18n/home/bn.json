@@ -1,0 +1,50 @@
+{
+  "allproducts": "সকল পণ্য",
+  "home": "হোম",
+  "allqueens": "সকল ME",
+  "qItService": "Q-আইটি-সেবা",
+  "qTraining": "Q-প্রশিক্ষণ",
+  "qSocial": "Q-সামাজিক মাধ্যম ",
+  "career": "ক্যারিয়ার",
+  "funds": "তহবিল",
+  "govtFund": "সরকারি তহবিল",
+  "privateFunds": "ব্যক্তিগত তহবিল",
+  "dealyDeals": "নিত্যদিনের লেনদেন !",
+  "training": "প্রশিক্ষণ !",
+  "pressandcoverage": "প্রেস এবং কভারেজ",
+  "recentProducts": "নতুন পণ্য",
+  "babyProducts": "বেবী পণ্য",
+  "food": "খাদ্য",
+  "homeDecor": " হোম ডেকর ",
+  "more": "আরো কিনুন",
+  "search": "পণ্য অনুসন্ধান করুন",
+  "upComing": "আপকামিং",
+  "finished": "সমাপ্ত",
+  "noCourse": "আপকামিং কোর্স নেই",
+  "beacomeaQueen": "কুইন হোন",
+
+  "account": "একাউন্ট",
+  "join": "যোগদান করুন",
+  "logOut": "লগআউটে",
+
+  "alQueenStore": "সকল কুইন দোকান ",
+  "qStore": "ME দোকান",
+
+  "queen": "ME",
+  "store": "দোকান",
+  "location": " লোকেশন",
+  "queenProducts": "কুইন এর পণ্য",
+  "noAvailableProductsThisQueen": "এই কুইন  এর কোন পণ্য পাওয়া যায় নাই",
+
+  "language": "ভাষা",
+
+  "searchTitle": "অনুসন্ধান করুন",
+  "profile": "প্রোফাইল",
+  "addToCart": "কার্টে যোগ করুন",
+  "logIn": "লগ ইন",
+
+  "next": "পরবর্তী",
+  "previous": "আগে",
+
+  "Designation": "পদবী"
+}

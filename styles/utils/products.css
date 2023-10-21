@@ -1,0 +1,108 @@
+.categories li {
+	color: rgb(134, 134, 134);
+}
+.categories li a {
+	/* color: rgb(134, 134, 134); */
+	text-decoration: none;
+	color: rgb(134, 134, 134);
+	cursor: pointer;
+	font-family: 'Jost', sans-serif;
+	font-size: 1.01rem;
+}
+
+.quantity-input {
+	border: none;
+	text-align: center;
+	width: 50px;
+	height: 100%;
+	display: inline-block;
+	/* height: 38px; */
+	font-size: 1.1rem;
+	padding: 0px;
+	height: 38px;
+	background: #ededed0d;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input[type='number'] {
+	-moz-appearance: textfield;
+}
+
+.active-category {
+	padding: 5px 18px;
+	border-radius: 3px;
+	/* font-size: 20px; */
+	color: var(--main-color) !important;
+	font-weight: 500;
+	position: relative;
+}
+.active-category::before {
+	content: '\f061';
+	position: absolute;
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 600;
+	left: 0;
+	color: var(--main-color);
+}
+.category-wrapper {
+	position: sticky;
+	top: 8.6rem;
+	overflow: auto;
+}
+.category-wrapper::-webkit-scrollbar {
+	width: 6px;
+}
+.category-wrapper::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+.category-wrapper::-webkit-scrollbar-thumb {
+	background: #ff1a64;
+}
+.productScroll::-webkit-scrollbar {
+	display: none;
+}
+.products-loader {
+	padding-bottom: 80px;
+}
+.end-message {
+	font-size: 2rem;
+	font-family: 'Exo', sans-serif;
+	font-weight: 800;
+}
+.category-section .main-category {
+	font-family: 'Jost', sans-serif;
+	font-size: 1.03rem;
+}
+
+.category-section {
+	background: var(--secondary-bg-color);
+	padding: 20px 30px;
+	height: 100vh;
+}
+.show-category-btn {
+	font-size: 0.8rem;
+	font-weight: 400;
+}
+.phone-category .accordion .card-header {
+	background: var(--secondary-color);
+}
+.phone-category .accordion .card {
+	border: 0px;
+	box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+@media only screen and (max-width: 768px) {
+	.category-section {
+		height: auto;
+		padding: 0;
+		margin-bottom: 20px;
+	}
+	.phone-category .categories li a {
+		font-weight: 400;
+	}
+}

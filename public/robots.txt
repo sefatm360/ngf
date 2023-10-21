@@ -1,0 +1,10 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://onthe-way.com/
+
+# Sitemaps
+Sitemap: https://onthe-way.com/sitemap.xml
+Sitemap: https://onthe-way.com//server-sitemap.xml

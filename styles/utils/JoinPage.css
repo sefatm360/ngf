@@ -1,0 +1,23 @@
+.next-btn {
+  background-color: var(--header-bg);
+  border: none;
+  color: white;
+  padding: 10px 40px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.loading-btn {
+  background-color: #f1555c;
+  border: none;
+  color: white;
+  padding: 9px 20px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  display: inline-block;
+}
+.loading-btn input {
+  border: none;
+  background-color: #f1555c;
+  color: white;
+}

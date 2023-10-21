@@ -1,0 +1,189 @@
+@media only screen and (max-width: 540px) {
+  /* header */
+  .mobile-search.window-click {
+    top: 13%;
+  }
+
+  .section-title {
+    font-size: 21px;
+  }
+
+  /* home wrapper */
+  .daily-deals-image-container {
+    height: 52px;
+  }
+  .banner-section .swiper_slide {
+    padding: 97px 0 !important;
+  }
+
+  .daily-deals-section {
+    padding: 30px 0;
+  }
+  .daily-deals-section .category-title {
+    font-size: 20px;
+  }
+  .show-product-card {
+    height: 250px !important;
+  }
+  .product-image-wrapper {
+    width: 100%;
+    position: relative;
+    height: 290px;
+  }
+  .product-name {
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .product-price {
+    font-weight: 500;
+    font-size: 13px;
+  }
+  /* .category-dropdown-area {
+    display: none;
+  } */
+
+  /* training section */
+
+  .course-date {
+    font-size: 11px;
+  }
+
+  /* footer section */
+
+  .partner-style h4 {
+    font-size: 1rem;
+  }
+  .member-text {
+    font-size: 0.8rem;
+  }
+
+  /* single product section */
+
+  .single-product-section .ask-question-btn {
+    background-color: var(--title-color);
+    color: var(--secondary-bg-color);
+    height: 40px;
+    font-size: 0.7rem;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+  }
+  .single-product-section .rating-review-title {
+    font-size: 0.8rem;
+  }
+
+  /* it service */
+  .single-itservice-title {
+    font-size: 1rem;
+    line-height: 1.6rem;
+  }
+
+  /* profile page */
+
+  .customer-order-wrapper .nav-tabs .nav-link {
+    font-size: 0.8rem;
+  }
+  .customer-order-wrapper thead tr th {
+    padding: 5px;
+    font-size: 0.7rem;
+  }
+  .customer-order-wrapper tbody tr td {
+    padding: 5px;
+    display: block;
+    font-size: 0.7rem;
+  }
+  .order-details-wrapper thead tr th {
+    font-size: 0.7rem;
+  }
+
+  .edit-profile-modal .modal-dialog {
+    margin-bottom: 100px;
+  }
+
+  .customer-order-wrapper .accordion-header-title {
+    font-size: 0.8rem;
+  }
+  /* profile page end */
+
+  /* login page start */
+  .left-login-col {
+    display: none;
+  }
+  .form-wrapper-login {
+    padding: 26px 0;
+  }
+
+  /* about */
+  .about-section .about-description {
+    /* font-size: 0.9rem; */
+  }
+
+  /* announcement section */
+  .announcement-section .announcement-img-box {
+    height: 307px;
+  }
+  /* memories section */
+  .memories-section .memories-img-box {
+    height: 254px;
+  }
+
+  /* pagination */
+  .page-link {
+    padding: 5px 7px;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 541px) and (max-width: 768px) {
+  .mobile-search.window-click {
+    top: 25%;
+  }
+  .banner-section .swiper_slide {
+    padding: 97px 0 !important;
+  }
+  .cmn-btn {
+    padding: 9px 9px;
+    /* margin-left: 10px; */
+  }
+  .header-area .cmn-btn {
+    margin-left: 10px;
+  }
+  /* login page start */
+  .left-login-col {
+    display: none;
+  }
+  .form-wrapper-login {
+    padding: 26px 0;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .cmn-btn {
+    display: flex;
+    padding: 9px 9px;
+    /* margin-left: 10px; */
+  }
+  .header-area .cmn-btn {
+    margin-left: 10px;
+  }
+  .disable-reg-title {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .cmn-btn {
+    display: flex;
+    padding: 9px 9px;
+    /* margin-left: 10px; */
+  }
+  .header-area .cmn-btn {
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  .header-area .cmn-btn {
+    padding: 10px 10px;
+  }
+}

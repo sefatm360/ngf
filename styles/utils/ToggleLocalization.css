@@ -1,0 +1,45 @@
+/* .toggle-switch {
+  width: 50px;
+  height: 25px;
+  background: #ff1a64;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+}
+.inner-btn-en {
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  background: white;
+  position: relative;
+  margin-left: 1px;
+  cursor: pointer;
+}
+.inner-btn-bn {
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  background: white;
+  position: relative;
+  margin-left: 1px;
+  cursor: pointer;
+}
+
+.inner-btn-en::after {
+  content: 'EN';
+  padding-left: 25px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.inner-btn-bn::after {
+  content: 'BN';
+  padding-left: 25px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.react-switch {
+  vertical-align: middle;
+  margin-left: 4px;
+} */

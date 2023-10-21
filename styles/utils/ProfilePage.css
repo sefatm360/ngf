@@ -1,0 +1,161 @@
+.profileSidebar {
+  background-color: var(--secondary-bg-color);
+  /* padding: 40px 26px; */
+  box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
+}
+.profileSidebar ul {
+  padding-left: 0px;
+}
+.profileSidebar ul {
+}
+.profile-sidebar-link {
+  display: flex;
+  color: #333333e6;
+  font-weight: 500;
+  padding: 10px;
+  transition: all 0.3s linear;
+  border-bottom: 1px solid #3333331c;
+}
+
+.profile-sidebar-link:hover {
+  color: #333333e6;
+  background: navajowhite;
+  /* transform: translateX(10px); */
+}
+
+.profile-sidebar-link svg {
+  font-size: 1.1rem;
+  color: var(--main-color);
+}
+.profile-sidebar-link .link-title {
+  padding-left: 10px;
+  font-family: 'Jost', sans-serif;
+}
+
+.profile-sidebar-link.active {
+  background: navajowhite;
+
+  border-left: 3px solid #41464b;
+}
+
+/* dashboard section */
+.dashboard-section {
+  background: var(--secondary-bg-color);
+  /* min-height: 350px; */
+  padding: 20px;
+  box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
+}
+
+.customer-orders {
+  height: 70vh;
+  width: 100%;
+  overflow: auto;
+  border: 2px solid black;
+}
+
+/* profile Info */
+.myProfile {
+  background: var(--secondary-bg-color);
+  box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
+  border-radius: 4px;
+}
+
+.myProfile svg {
+  font-size: 2.5rem;
+}
+
+.profileInfoDiv {
+  background-color: #fff;
+  box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
+  min-height: 350px;
+}
+
+.profile-info-section * {
+  font-family: 'Jost', sans-serif;
+}
+.profile-info-section .user-details {
+  font-size: 1rem;
+}
+
+.review {
+  height: 300px;
+  overflow-y: scroll;
+}
+.review::-webkit-scrollbar {
+  display: none;
+}
+.deleted-button {
+  border: none;
+  background-color: #e9313a;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  border-radius: 5px;
+  padding: 5px;
+}
+.deleted-button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid #e9313a;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+/* my order */
+
+.customer-order-wrapper .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  background-color: unset;
+  border-color: transparent;
+  border-bottom: 2px solid var(--main-color);
+  font-weight: 700;
+}
+.customer-order-wrapper .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link {
+  color: var(--title-color);
+}
+
+.customer-order-wrapper svg {
+  color: green;
+}
+
+.customer-order-wrapper thead tr th {
+  padding: 10px;
+  text-align: center;
+}
+.customer-order-wrapper tbody tr td {
+  padding: 10px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.order-details-wrapper thead tr th {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.order-details-wrapper tbody tr td {
+  font-size: 0.8rem;
+}
+
+.order-details-wrapper .order-modal-info {
+  background: var(--primary-bg-color);
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.edit-profile-modal input {
+  border: 1px solid #3333 !important;
+  padding: 8px 5px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.customer-order-wrapper .order-product-bottom {
+  border-bottom: 1px solid #33333314;
+}
+
+.customer-order-wrapper .order-product-bottom:last-child {
+  border-bottom: 0px;
+}

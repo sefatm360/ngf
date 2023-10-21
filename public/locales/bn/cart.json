@@ -1,0 +1,49 @@
+{
+  "shoppingCart": "শপিং কার্ট",
+  "takeALook": "আপনার কার্টের ভিতরে দেখুন । আপনার প্রয়োজনীয় সবকিছু আছে তা নিশ্চিত করুন",
+  "noProduct": "কার্টে কোন পণ্য যোগ করা হয়নি",
+  "shoppingNow": "শপিং করুন",
+  "continuneShopping": "কেনাকাটা চালিয়ে যান",
+
+  "Total Items": "মোট আইটেম",
+  "Total": "মোট",
+  "Unit": "ইউনিট",
+  "queen": "ME",
+  "Quantity": "পরিমাণ",
+  "Proceed to checkout": "চেকআউট করুন",
+
+  "Order Confirmation": "অর্ডার নিশ্চিত করুন",
+
+  "Back to Cart": "কার্টে ফিরে যান",
+
+  "Customer Information": "গ্রাহকের তথ্য",
+  "Name": "নাম",
+  "Phone": "ফোন",
+  "Email": "ইমেইল",
+  "Address": "ঠিকানা",
+  "Your Phone": "আপনার ফোন নাম্বার",
+  "Enter Your Number": "আপনার  নাম্বার প্রবেশ করুন",
+  "Full Name": "আপনার পুরো নাম",
+  "Enter Your Full Name": "আপনার পুরো নাম লিখুন",
+  "Your Email": "আপনার ইমেইল",
+  "Enter Your Email": "আপনার ইমেইল লিখুন ",
+
+  "Your Address": "আপনার ঠিকানা",
+  "Enter Your Address": "আপনার অ্যাড্রেস লিখুন",
+
+  "Your City": "আপনার শহর নাম",
+  "Enter Your City": "আপনার শহরের নাম লিখুন",
+  "Post Code": "পোস্ট কোড",
+  "Enter Your Post Code": "আপনার পোস্ট কোড লিখুন",
+  "Total Amount": " মোট টাকা",
+  "Delivery charge": "ডেলিভারি চার্জ",
+  "Place Order": "অর্ডার করুন",
+  "Please wait..": "অনুগ্রহপূর্বক অপেক্ষা করুন",
+
+  "Order Confirmed": "অর্ডার নিশ্চিত করা হয়েছে",
+  "Thank You For Your Order": "আপনার অর্ডারের জন্য আপনাকে ধন্যবাদ",
+  "Your Order Id": "আপনার অর্ডার আইডি",
+  "We will Call you as soon as possible for order confirmation": "অর্ডার নিশ্চিতকরণের জন্য  যত তাড়াতাড়ি সম্ভব আমরা  আপনাকে কল করা হবে ।",
+  "Back to Home": "হোমে ফিরে যান",
+  "description": "বর্ণনা"
+}

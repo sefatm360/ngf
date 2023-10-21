@@ -1,0 +1,67 @@
+{
+  "productsPageTitle": "All Products Of Our Queens",
+
+  "Category": "Category",
+
+  "foodItems": "Food items",
+  "allFoodItems": "All Food items",
+  "cakeAndPudding": "Cake & Pudding",
+  "fishCurry": "Fish Curry",
+  "meatCurry": "Meat Curry",
+  "biriyani": "Biriyani & Rice Items",
+  "dessert": "Dessert",
+  "pitha": "Pitha",
+  "bhortaVaji": "Bhorta Vaji",
+  "pickle": "Pickle",
+  "lunchBox": "Lunch Box",
+  "other": "Others",
+
+  "womanFashion": "Woman's Fashion",
+  "shareeAndBlouse": "Sharee & Blouse",
+  "salwarKameez": "Salwar kameez",
+  "singleKurtiAndPant": "Single kurti & pant",
+  "ladiesShoes": "Ladies Shoes",
+  "jewellery": "Jewellery",
+  "cuppleCollection": "Couple Collection",
+  "hijabBorkhaAndGown": "Hijab Borkha & Gown",
+  "fashionAccessories": "Fashion Accessories",
+
+  "mensFashion": "Men's Fashion",
+  "shirt": "Shirt",
+  "pant": "Pant",
+  "panjabi": "Panjabi",
+
+  "healthAndBeauty": "Health & Beauty",
+  "skinCare": "Skin Care",
+  "hairCare": "Hair Care",
+  "makeupItems": "Makeup item",
+
+  "accessories": "Accessories",
+  "stationary": "Stationary",
+  "grocery": "Grocery",
+  "toys": "Toys",
+  "others": "Others",
+  "showcategory": "Show Categories",
+
+  "youSeeAll": "Yay! You have seen it all",
+  "noproductAtThisCategory": " No Products available at this Category",
+  "outOfStock": "Out Of Stock",
+  "addToCart": "Add to Cart",
+
+  "Social Share": "Social Share",
+  "Related Products": "Related Products",
+  "description": "description",
+  "TK": "TK",
+  "queen": "ME",
+  "Product": "Product",
+  "er": "s",
+
+  "ratingReviewsOf": "Rating & Reviews of",
+  "noReviewAvailable": "No Review Available",
+  "questionsAboutThisProduct": "Questions About This Product",
+  "noAnswer": "No answer yet",
+  "noQuestion": "There are no questions yet",
+  "toAskQuestion": "to ask questions to seller",
+  "delivery": "Delivery",
+  "day": "Day"
+}

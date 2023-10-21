@@ -1,0 +1,33 @@
+.confirmation-content {
+  background: var(--secondary-bg-color);
+}
+
+.confirmation-content .text-input {
+  border: 1px solid #3333 !important;
+  padding: 8px 5px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+}
+
+.confirmation-content .input-label {
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+.confirmation-content input:focus-visible {
+  outline: unset !important;
+}
+
+.confirmation-content .total-amount {
+  font-size: 0.98rem;
+  font-weight: 400;
+}
+.order-btn {
+  border: 0px;
+  font-size: 0.9rem;
+  width: 100%;
+  padding: 10px 0;
+  background: var(--main-color);
+  color: var(--primary-bg-color);
+  border-radius: 4px;
+}

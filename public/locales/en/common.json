@@ -1,0 +1,75 @@
+{
+  "orderTracking": "Order Tracking",
+  "trackingText": "To track your order please Enter your phone number with which you have opened an account on our website and Order ID in the box below and press the Track button.",
+  "phoneNumber": "Phone Number",
+  "enterPhoneNumber": "Enter your phone Number",
+
+  "enterOrderId": "Enter your order id",
+  "orderId": "Enter your order Id",
+
+  "track": "Track",
+  "forMoreInformation": " For More Information Contact Our Customer Care",
+  "sendMessage": "Send Message",
+
+  "order": "Your Order",
+  "status": " status is",
+
+  "returnsPolicy": "Returns Policy",
+  "returnsPolicyText": "  We happily accept returns on any full priced item within 14 days of receiving your item(s), as long as the Provided the item is not worn, altered or washed and is still with its original packaging we will provide a full refund or a credit note. Conditions apply. Please note we do not accept returnson sale items.Due to the personalised nature of monogrammed and engraved items, we do not offer returns or exchanges on these items.",
+
+  "faultyitem": "Faulty Item",
+  "faultyitemText": " We stand behind the products we create. If you believe your product has a manufacturing defect, we apologise, please contact us so we can make it right at onthewayqueen@gmail.com and provide your order number with  photos of the suspected issue. Alternatively you can call on (+8809638336677 +8801894829225).",
+
+  "andriodApps": "ANDROID APPS",
+  "doWeHaveAndroidApp": "Do Nowabenki Gonomukhi Foundation (NGF) have Andriod App",
+  "yesWeHave": "Yes we have Android app for 'ME'",
+  "clickhere": "Click here",
+
+  "aboutMyAccount": "ABOUT MY ACCOUNT",
+  "needAccountBeforeOrder": " Do I need to make an account before placing an order ?",
+  "needAccountBeforeOrderAnwser": " Customer accounts are optional and you can always  checkout as a guest without creating an account. We recommend creating an account for easier access to order updates and returns.",
+
+  "howISignUp": " How do I sign up NGF?",
+  "howISignUpAnwser": " You can sign up for our website by your phone number other information for recruitment in register page.",
+
+  "orderq": "ORDERS",
+  "cancelMyOrder": "Can I cancel or change my order ?",
+  "cancelMyOrderAnwser": " Orders can only be edited or canceled via phone  (+8809638336677 , +8801894829225). Orders can't be edited or canceled via email. Please call our office within an hour of placing your order to make any needed adjustmentsor cancellations. ",
+
+  "orderByPhone": "Can I place an order over the phone ?",
+  "orderByPhoneAnwser": "If you have trouble ordering from our website, you can always call customer support (+ 8809638336677, + 8801894829225) and we'll be happy to help you go through the order process. You can also place orders on our website and by phone call and we send your items your location.",
+
+  "itServices": "OUR IT SERVICES",
+
+  "fundByGoverment": "Ontheway is being funded by Bangladesh Government",
+
+  "ictIdea": "Ontheway got pre-seed funding from iDEA project, ICT Division Government of the People's Republic of Bangladesh.",
+
+  "easternBank": "Ontheway got funded by Bangladesh Bank through Eastern Bank Limited for startup project.",
+
+  "fundByBangladeshiCompany": "Ontheway is being funded by some Bangladeshi Private Company",
+  "FundByForeignCompany": "Ontheway is being funded by some Foreign Private Company",
+
+  "ConnectWomanEnterpreneur": "Connecting Women Entrepreneur's",
+  "underConstructuion": "Social Media for Queen is under Construction",
+  "pleaseSubscribe": "Please Subscribe for Updates",
+  "subscribe": "Subscribe",
+  "enterYourEmailAddress": "Enter your email address",
+
+  "traningProgram": "On The Way Training Program",
+  "becomeTrainer": "Become a Trainer",
+  "becomeTrainee": "Become a Trainee",
+  "trainingInstitutes": " TRAINING INSTITUTES",
+  "training": "Trainings",
+  "noUpcomingTraining": "No upcoming trainings",
+  "disableRegistration": "Trainee Registation is now disabled from website, you can download and register with Queen App and join upcoming courses",
+  "downloadApp": "Download App",
+  "category": "Category",
+  "home": "Home",
+  "user": "User",
+  "categories": "Categories",
+  "menu": "Menu",
+  "seeAll": "See all",
+  "learnMore": "Learn More",
+  "notFound": "Not Found"
+}

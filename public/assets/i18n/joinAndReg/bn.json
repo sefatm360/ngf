@@ -1,0 +1,32 @@
+{
+  "Enter Your Number": "আপনার  নাম্বার প্রবেশ করুন",
+  "Joining...": "যুক্ত হোন...",
+  "Join": "যুক্ত হোন",
+  "Forgot password": "পাসওয়ার্ড ভুলে গেছেন ",
+  "Enter Password": "পাসওয়ার্ড লিখুন",
+
+  "Next": "পরবর্তী",
+  "Please wait..": "অনুগ্রহপূর্বক অপেক্ষা করুন..",
+
+  "Login": "লগ ইন",
+  "Login...": "লগ ইন...",
+  "Show Password": "পাসওয়ার্ড দেখুন",
+
+  "Sign up": "নিবন্ধন করুন",
+  "Enter your full name": "আপনার পুরো নাম লিখুন",
+  "Enter Your Email": "আপনার ইমেইল লিখুন ",
+  "Enter Your Address": "আপনার অ্যাড্রেস লিখুন",
+  "Post Code": "পোস্ট কোড",
+  "City": "শহর",
+  "Enter new password": "নতুন পাসওয়ার্ড লিখুন",
+  "Repeat password": "পুনরায় পাসওয়ার্ড লিখুন ",
+
+  "Enter Otp": "ওটিপি লিখুন",
+  "Otp": "ওটিপি",
+  "Submit": "প্রবেশ করুন",
+
+  "Invalid Number": "ভুল নাম্বার",
+
+  "Wrong Number or Password": "ভুল নম্বর বা পাসওয়ার্ড",
+  "Password must be same and length will be six or more": "পাসওয়ার্ড একই হতে হবে এবং দৈর্ঘ্য হবে ছয় বা তার বেশি"
+}

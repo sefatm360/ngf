@@ -1,0 +1,344 @@
+/* hero section start */
+.banner-section {
+  background: var(--secondary-bg-color);
+}
+.banner-sidebar .inner-card {
+  height: 214px;
+  background: #cfc9ca99;
+  border-radius: 4px;
+}
+
+/* swiper */
+
+.banner-section .swiper_slide {
+  padding: 220px 0;
+  width: 100%;
+}
+.banner-section .slider-banner-wrapper {
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.banner-section .swiper-button-prev,
+.banner-section .swiper-button-next {
+  background: #ffffffd9;
+  color: #333;
+  transition: 0.5s ease;
+}
+.banner-section .swiper-button-next:hover {
+  background: white;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  font-size: 1rem !important;
+}
+.banner-section .swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: 0px;
+  left: 0;
+  width: auto;
+  background: var(--primary-bg-color);
+  border-top-right-radius: 10px;
+}
+
+.banner-section
+  .swiper-horizontal
+  > .swiper-pagination-bullets
+  .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 6px);
+}
+
+.banner-section .swiper-pagination-bullet {
+  width: var(
+    --swiper-pagination-bullet-width,
+    var(--swiper-pagination-bullet-size, 10px)
+  );
+  height: var(
+    --swiper-pagination-bullet-height,
+    var(--swiper-pagination-bullet-size, 10px)
+  );
+  display: inline-block;
+  border-radius: 99px;
+  transition: 0.6s cubic-bezier(0.4, 0, 1, 1);
+}
+
+.banner-section .swiper-pagination-bullet-active {
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.16);
+  width: 25px;
+}
+
+/* daily deals section start */
+
+.product-image-wrapper {
+  width: 100%;
+  position: relative;
+  height: 220px;
+}
+
+.daily-deals-section {
+  background: var(--primary-bg-color);
+  padding: 60px 0;
+  position: relative;
+}
+
+/* .daily-deals-section .circledot-1 {
+  background: url('../../public/assets/homeWrapper/dotBlob1.png') no-repeat;
+  position: absolute;
+  top: 20%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.daily-deals-section .circledot-2 {
+  background: url('../../public/assets/homeWrapper/circleBlob.png') no-repeat;
+  position: absolute;
+  top: 50%;
+  right: 0 !important;
+  width: 53px;
+  height: 100%;
+}
+.daily-deals-section .circledot-3 {
+  background: url('../../public/assets/homeWrapper/bottomBlob.png') no-repeat;
+  position: absolute;
+  top: 70%;
+  left: 5%;
+  width: 100%;
+  height: 100%;
+} */
+
+.daily-deals-section .category-title {
+  color: #333;
+  font-size: 23px;
+  font-family: 'Jost', sans-serif;
+  font-weight: 900;
+  position: relative;
+}
+.daily-deals-section .category-container {
+  background: var(--secondary-bg-color);
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+/* .daily-deals-section .category-title::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  background: url('/assets/underline-title.svg');
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+} */
+.daily-deals-image-container {
+  position: relative;
+  width: 100%;
+  height: 120px;
+}
+
+.show-product-card {
+  background-color: var(--secondary-bg-color);
+  transition: 0.2s;
+  border-radius: 6px;
+  cursor: pointer;
+  height: 100%;
+  transition: all 0.5s linear;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+.show-product-card:hover {
+  transform: scale(1.04);
+}
+
+/* Show Product Styles  */
+
+.product-img {
+  object-fit: cover;
+  height: 270px;
+  width: 100%;
+  transition: 0.5s linear;
+}
+
+.rating {
+  color: #faca51;
+}
+.ratingColor {
+  color: rgb(153, 153, 153);
+}
+.buy-now-btn {
+  border: 1px solid;
+  border-radius: 3px;
+  background: transparent;
+  border-color: #ddd;
+}
+.product-name {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--title-color);
+  position: relative;
+}
+.product-name-container {
+  height: 50px;
+  overflow: hidden;
+}
+.product-card {
+  background-color: #f3f3f3;
+}
+
+/* .product-img:hover {
+  transform: scale(1.1);
+} */
+.product-price {
+  color: var(--main-color);
+  font-weight: 600;
+}
+.product-ratings span {
+  font-size: 1rem !important;
+  height: 17px;
+}
+
+/* training section start */
+
+.training-section {
+  background: var(--secondary-bg-color);
+}
+
+/* training section end */
+.training-section .training-tab {
+  margin: 0 auto;
+  text-align: center;
+  border-bottom: 0px;
+}
+.training-section .training-tab .nav-item {
+  /* border-top: 1px solid #3333;
+  border-right: 1px solid #3333;
+  border-bottom: 1px solid #3333;
+  border-left: 1px solid #3333; */
+
+  /* border-radius: 5px; */
+  display: inline-flex;
+  /* border: 1px solid #3333; */
+  overflow: hidden;
+}
+
+.training-section .training-tab .nav-item:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  /* border-right: 1px solid #3333; */
+  border-left: 1px solid #3333;
+  border-top: 1px solid #3333;
+  border-bottom: 1px solid #3333;
+}
+.training-section .training-tab .nav-item:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-right: 1px solid #3333;
+  border-top: 1px solid #3333;
+  border-bottom: 1px solid #3333;
+}
+
+/* .training-section .training-tab {
+  display: inline-flex;
+  border: 1px solid #3333;
+  border-radius: 5px;
+  overflow: hidden;
+} */
+.training-section .training-tab .nav-item .nav-link {
+  border-radius: 0px;
+  color: var(--title-color);
+}
+.training-section .training-tab .nav-item .nav-link.active {
+  background-color: #333;
+  border-radius: 0;
+  overflow: hidden;
+  color: #fff;
+  border-color: transparent;
+}
+.training-section .course-card {
+  /* box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px; */
+  box-shadow: rgb(100 100 111 / 20%) 0px 7px 19px 0px;
+}
+.course-card {
+  border-radius: 6px;
+  border: 1px solid rgb(245 236 236 / 65%);
+  transition: 0.2s ease;
+  overflow: hidden;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.course-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.course-card-read-more h5 {
+  transition: 0.3s ease;
+}
+.course-card-read-more h5:hover {
+  color: green;
+}
+
+.course-card .training-description {
+  color: var(--title-color);
+  font-size: 13px;
+  line-height: 1.4rem;
+}
+
+.course-card .institute-name {
+  font-size: 1rem;
+}
+
+.course-card .course-title {
+  color: #000 !important;
+  font-weight: 600;
+}
+
+.course-card .read-more-btn {
+  font-size: 1rem;
+}
+
+/* press coverage */
+
+.press-coverage-section .swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.press-coverage-section .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+.press-coverage-section .swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.press-coverage-section .swiper-button-prev,
+.press-coverage-section .swiper-button-next {
+  background: #ffffffd9;
+  color: #333;
+  transition: 0.5s ease;
+}
+.press-coverage-section .swiper-button-prev,
+.press-coverage-section .swiper-button-next {
+  background: #ffffffd9;
+  color: #333;
+  transition: 0.5s ease;
+}
+.press-coverage-section .swiper-button-next:hover {
+  background: #fff;
+}
+
+.press-coverage-section .swiper-slide.swiper-slide-visible.swiper-slide-active {
+  transform: scale(1.1) !important;
+}

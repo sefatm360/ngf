@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Q-Pos",
+    "img": "assets/it-services/q-pos.png",
+    "url": "/q-pos",
+    "link": "https://demo.qpos.site/"
+  },
+  {
+    "name": "Q-Biz",
+    "img": "assets/it-services/q-biz.png",
+    "url": "/q-biz",
+    "link": "https://demo.qbiz.online/"
+  },
+  {
+    "name": "Q-Site",
+    "img": "assets/it-services/q-site.png",
+    "url": "/q-site"
+  },
+  {
+    "name": "Q-Apps",
+    "img": "assets/it-services/q-apps.png",
+    "url": "/q-apps"
+  },
+  {
+    "name": "Q-Social Marketing",
+    "img": "assets/it-services/q-social.png",
+    "url": "/q-social-marketing"
+  },
+  {
+    "name": "Q-Sms/Email Service",
+    "img": "assets/it-services/q-sms.png",
+    "url": "/q-sms"
+  }
+]

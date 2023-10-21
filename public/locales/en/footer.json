@@ -1,0 +1,57 @@
+{
+  "emailText": "Email us at",
+  "call": "Call us",
+  "aboutUs": "About Us",
+  "storeLocation": "Store Location",
+  "contactUs": "Contact Us",
+  "orderTracking": "Order Tracking",
+  "myAccount": "My Account",
+  "ItService": "It Services",
+  "usefulLink": "Useful Link",
+  "returns": "Returns",
+  "suportPolicy": "Support Policy",
+  "sizeGuide": "Size guide",
+  "faqs": "FAQs",
+  "backShopping": "Back to shopping",
+
+  "followUs": "Follow Us",
+  "facebook": "Facebook",
+  "instagram": "Instagram",
+  "youtube": "Youtube",
+  "linkedin": "LinkedIn",
+  "twitter": "Twitter",
+
+  "sponsorship": "Sponsorship",
+  "journal": "Journal",
+
+  "office1": "Head Office",
+  "address1": "Nowabenki, Shyamnagar, Satkhira.",
+
+  "office2": "Dhaka Office",
+  "address2": "Rupayan Shopping Square, Office Space # A-7, 7th Floor, Plot No-C-2, Block-G, Bashundhara, Dhaka, Bangladesh",
+
+  "office3": "Training & Resource Centre (TARC)",
+  "address3": "Ramnagar, Rajarhat, Jashore",
+
+  "alRights": "All Rights Reserved",
+  "AffiliateMemberOf": "Affiliate member of",
+  "member": "Member of",
+
+  "officeAddress": "Office Address",
+  "headOffice": "Head Office",
+  "helpByPhone": "Help by Phone",
+  "emailus": "Email us",
+
+  "beAnEnterpreneur": "Be an Entrepreneur",
+  "sendMessage": "Send a Message",
+  "yourName": "Your Name",
+  "Email": "Email Address",
+  "phoneNo": "Phone No",
+  "message": "Message",
+  "submitMessage": "SEND MESSAGE",
+
+  "fundBy": "WE ARE FUNDED BY",
+  "collaborativePartners": "COLLABORATIVE PARTNERS",
+  "announcement": "Announcement",
+  "memories": "Memories"
+}

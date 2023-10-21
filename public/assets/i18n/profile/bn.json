@@ -1,0 +1,10 @@
+{
+  "orders": "আপনার অর্ডার",
+  "orderId": " অর্ডার আইডি ",
+  "orderDate": "অর্ডার তারিখ",
+  "payment": "পেমেন্ট",
+  "deliveryAddress": "ডেলিভারি ঠিকানা",
+  "quantity": "পরিমাণ",
+  "Phone": "ফোন",
+  "Edit Profile": "এডিট প্রোফাইল "
+}

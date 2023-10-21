@@ -1,0 +1,45 @@
+{
+  "productsPageTitle": "All Products Of Our Queens",
+
+  "category": "Category",
+
+  "foodItems": "Food items",
+  "womanFashon": "Woman's Fashion",
+  "shareeAndBlouse": "Sharee & Blouse",
+  "salwarKameez": "Salwar kameez",
+  "singleKurtiAndPant": "Single kurti & pant",
+  "ladiesShoes": "Ladies Shoes",
+  "jewellery": "Jewellery",
+  "cuppleCollection": "Couple Collection",
+  "hijabBorkhaAndGown": "Hijab Borkha & Gown",
+  "fashionAccessories": "Fashion Accessories",
+
+  "mensFashon": "Men's Fashion",
+  "shirt": "Shirt",
+  "pant": "Pant",
+  "panjabi": "Panjabi",
+
+  "healthAndBeauty": "Health & Beauty",
+  "skilCare": "Skin Care",
+  "hairCare": "Hair Care",
+  "makeupItems": "Makeup item",
+
+  "accessories": "Accessories",
+  "stationary": "Stationary",
+  "grocery": "Grocery",
+  "toys": "Toys",
+  "others": "Others",
+  "showcategory": "Show Categories",
+
+  "youSeeAll": "  Yay! You have seen it all",
+  "noproductAtThisCategory": " No Products available at this Category",
+  "outOfStock": "Out Of Stock",
+  "addToCart": "Add to Cart",
+
+  "Social Share": "Social Share",
+  "Related Products": "Related Products",
+  "description": "description",
+  "TK": "TK",
+  "queen": "ME",
+  "Product": "Product"
+}

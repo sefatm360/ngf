@@ -1,0 +1,28 @@
+.contact-page .input-field {
+  margin: 10px 0;
+  border: none;
+  padding: 5px;
+  border-bottom: 1px solid #3333;
+  background-color: var(--home-bg);
+}
+.contact-page .input-field:focus {
+  outline: none;
+}
+.contact-page .send-message-btn {
+  border: none;
+  background-color: var(--title-color);
+  color: white;
+  padding: 10px 0;
+  margin-top: 10px;
+}
+/* .be-enterpurner::before {
+  content: '';
+  background-color: var(--main-color);
+  display: inline-block;
+  height: 2px;
+  position: relative;
+  width: 50px;
+} */
+input:-internal-autofill-selected {
+  background-color: transparent !important;
+}
