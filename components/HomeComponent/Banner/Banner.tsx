@@ -55,7 +55,7 @@ const Banner = ({ sliderBanner }: IBannerDataType) => {
                       <Col lg={12}>
                         <div className='inner-card position-relative overflow-hidden'>
                           <Image
-                            src='/assets/discount-related/rrf_stop_violence.jpg'
+                            src='/assets/discount-related/ngf_slide_20.jpg'
                             alt=''
                             layout='fill'
                           />
@@ -64,7 +64,7 @@ const Banner = ({ sliderBanner }: IBannerDataType) => {
                       <Col style={{ marginTop: '10px' }}>
                         <div className='inner-card position-relative overflow-hidden'>
                           <Image
-                            src='/assets/discount-related/rrf_agriculture.jpg'
+                            src='/assets/discount-related/ngf_slide_21.jpg'
                             alt=''
                             layout='fill'
                           />

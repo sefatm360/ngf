@@ -1,26 +1,24 @@
 import axios from 'axios';
-import React, { useReducer, useState } from 'react';
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import Link from 'next/link';
+import { useRouter } from 'next/router';
+import { useReducer, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';
-import { useRouter } from 'next/router';
+import { BsArrowRight } from 'react-icons/bs';
+import { Ilocale } from '../../PageTypes/commonType/commonType';
+import { IconfirmProduct } from '../../PageTypes/orderConfirm/orderConfirm';
 import {
   SET_CART_SUCCESS,
   SET_GUEST_BY_PHONE,
   url,
 } from '../../components/Helpers/Constant';
-import { useCartContext } from '../../contexts/CartContextFile/CartContext';
-import Meta from '../../components/Meta/Meta';
-import Link from 'next/link';
-import reducer from '../../components/Reducers/GuestOrderReducer';
-import ConfirmOtp from '../../components/orderConfirm/ConfirmOtp';
-import ConfirmDetails from '../../components/orderConfirm/ConfirmDetails';
 import lib from '../../components/Helpers/utils';
-import { IconfirmProduct } from '../../PageTypes/orderConfirm/orderConfirm';
-import handleOtp from '../../components/Hooks/handleOtp';
+import Meta from '../../components/Meta/Meta';
+import reducer from '../../components/Reducers/GuestOrderReducer';
+import ConfirmDetails from '../../components/orderConfirm/ConfirmDetails';
 import { useAuthContext } from '../../contexts/AuthContextFile/AuthContext';
-import { Ilocale } from '../../PageTypes/commonType/commonType';
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
-import { BsArrowRight } from 'react-icons/bs';
+import { useCartContext } from '../../contexts/CartContextFile/CartContext';
 
 const ConfirmOrderLayout = () => {
   const { user } = useAuthContext();
@@ -28,7 +26,6 @@ const ConfirmOrderLayout = () => {
   const { me: cartQueenId } = router.query;
   const [error, setError] = useState<string>('');
   const [loading, setLoading] = useState<boolean>(false);
-  const [otpState, setOtpState] = useState<boolean>(false);
 
   const { dispatch: cartDispatch, cart } = useCartContext();
   const { t } = useTranslation(['cart']);
@@ -105,8 +102,7 @@ const ConfirmOrderLayout = () => {
         handlePlaceOrder();
       } else {
         setError('');
-        handleSendOtp();
-        sessionStorage.setItem('order', JSON.stringify(guestOrder));
+        router.push('/login');
       }
     } else {
       setLoading(false);
@@ -114,18 +110,18 @@ const ConfirmOrderLayout = () => {
     }
   };
 
-  const handleSendOtp = () => {
-    handleOtp({
-      phone: orderPhone,
-      handleOtpRoute: router.replace,
-      setError,
-      type: 'order',
-      route: '/confirm-order/',
-      setIsLoading: setLoading,
-    });
+  // const handleSendOtp = () => {
+  //   handleOtp({
+  //     phone: orderPhone,
+  //     handleOtpRoute: router.replace,
+  //     setError,
+  //     type: 'order',
+  //     route: '/confirm-order/',
+  //     setIsLoading: setLoading,
+  //   });
 
-    setOtpState(true);
-  };
+  //   setOtpState(true);
+  // };
 
   const handlePlaceOrder = () => {
     setError('');
@@ -200,23 +196,15 @@ const ConfirmOrderLayout = () => {
               </Col>
               <Col md={7}>
                 <div className='bg-white rounded-3 p-2 '>
-                  {otpState ? (
-                    <ConfirmOtp
-                      handleSendOtp={handleSendOtp}
-                      setError={setError}
-                      error={error}
-                    />
-                  ) : (
-                    <ConfirmDetails
-                      dispatch={dispatch}
-                      state={state}
-                      checkUserByPhone={checkUserByPhone}
-                      error={error}
-                      totalPrice={totalPrice}
-                      loading={loading}
-                      handleOrder={handleOrder}
-                    />
-                  )}
+                  <ConfirmDetails
+                    dispatch={dispatch}
+                    state={state}
+                    checkUserByPhone={checkUserByPhone}
+                    error={error}
+                    totalPrice={totalPrice}
+                    loading={loading}
+                    handleOrder={handleOrder}
+                  />
                 </div>
               </Col>
             </Row>
