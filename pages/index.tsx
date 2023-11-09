@@ -41,8 +41,6 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => {
     const res = await fetch(`${url}/api/content/get/images/slider`);
     sliderBanner = await res.json();
 
-    console.log({ sliderBanner });
-
     // fetch daily deals
     const categoryList: any = [
       {
