@@ -5,27 +5,27 @@ import Sidebar from '../utils/Sidebar';
 import Meta from '../Meta/Meta';
 
 interface LayoutProps {
-	children: React.ReactNode;
+  children: React.ReactNode;
 }
 
 const SidebarLayout = ({ children }: LayoutProps) => {
-	const router = useRouter();
+  const router = useRouter();
 
-	return (
-		<>
-			<Meta title="Products | ontheway" />
-			<div className="products-section py-5">
-				<Container>
-					<Row>
-						<Col lg={3}>
-							<Sidebar />
-						</Col>
-						<Col>{children}</Col>
-					</Row>
-				</Container>
-			</div>
-		</>
-	);
+  return (
+    <>
+      <Meta title='Products | Nowabenki Gonomukhi Foundation (NGF)' />
+      <div className='products-section py-5'>
+        <Container>
+          <Row>
+            <Col lg={3}>
+              <Sidebar />
+            </Col>
+            <Col>{children}</Col>
+          </Row>
+        </Container>
+      </div>
+    </>
+  );
 };
 
 export default SidebarLayout;

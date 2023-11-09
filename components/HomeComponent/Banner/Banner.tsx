@@ -7,7 +7,6 @@ import { Autoplay, Pagination, Navigation } from 'swiper';
 // import { DivLoader } from '../../../components/Spinner/Spinner';
 const Banner = ({ sliderBanner }: IBannerDataType) => {
   const { data } = sliderBanner;
-
   return (
     <>
       <div className='banner-section'>

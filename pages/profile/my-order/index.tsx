@@ -138,7 +138,7 @@ const MyOrder = () => {
                               <span className='fw-semibold'>
                                 {t('orderId')}:
                               </span>
-                              <span> RRT-O{order_id}</span>
+                              <span> NGF-O{order_id}</span>
                             </div>
 
                             {status === 'Pending' && (
@@ -240,7 +240,7 @@ const MyOrder = () => {
                               <span className='fw-semibold'>
                                 {t('orderId')}:
                               </span>
-                              <span> RRT-O{order_id}</span>
+                              <span> NGF-O{order_id}</span>
                             </div>
 
                             <Badge bg='warning' text='white'>
@@ -308,7 +308,7 @@ const MyOrder = () => {
                               <span className='fw-semibold'>
                                 {t('orderId')}:
                               </span>
-                              <span> RRT-O{order_id}</span>
+                              <span> NGF-O{order_id}</span>
                             </div>
 
                             <Badge bg='success' text='white'>

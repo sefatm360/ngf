@@ -43,7 +43,7 @@ const OrderViewModal = ({ modalShow, setModalShow, order }: any) => {
                   <div className='col-lg-6'>
                     <div>
                       <span className='fw-semibold'>Order ID : </span>
-                      <span>RRT-O{order_id}</span>
+                      <span>NGF-O{order_id}</span>
                     </div>
                     <div className='my-1'>
                       <span className='fw-semibold'>Order Date :</span>
@@ -97,7 +97,7 @@ const OrderViewModal = ({ modalShow, setModalShow, order }: any) => {
                       return (
                         <>
                           <tr>
-                            <td>RRT-O{product_id}</td>
+                            <td>NGF-O{product_id}</td>
                             <td>
                               <Link href={`/product/${product_id}`}>
                                 <a className='text-main'>{product_name}</a>

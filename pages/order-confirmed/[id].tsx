@@ -29,7 +29,7 @@ const ConfirmationOrder = () => {
               </h5>
               <h5 className='font-jost mt-5'>
                 {t('Your Order Id')}{' '}
-                <strong className='text-main'>RRT-O{id}</strong>
+                <strong className='text-main'>NGF-O{id}</strong>
               </h5>
               <h6 className='mt-2 mb-4 font-jost'>
                 {t(

@@ -49,7 +49,7 @@ const EachQueen = ({ queen, deleteItem }: any) => {
                 <p> &#2547;{totalPrice}</p>
               </div>
               <div className='text-center'>
-                <Link href={`/confirm-order?queen=${queenId}`}>
+                <Link href={`/confirm-order?me=${queenId}`}>
                   <a className='checkout-btn  px-2 py-2 d-block'>
                     {t('Proceed to checkout')}
                   </a>

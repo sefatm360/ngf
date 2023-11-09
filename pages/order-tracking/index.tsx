@@ -112,7 +112,7 @@ const OrderTracking = () => {
 
                         <div className='input-group w-75'>
                           <span className='input-group-text' id='basic-addon1'>
-                            RRT-O
+                            NGF-O
                           </span>
                           <input
                             className='form-control'
@@ -163,7 +163,7 @@ const OrderTracking = () => {
                                 <div>
                                   {t('order')}
                                   <span className='fw-bold font-jost px-1'>
-                                    RRT-O ( {order?.order_id} )
+                                    NGF-O ( {order?.order_id} )
                                   </span>
                                   {t('status')}
                                   <span className='ps-2 text-primary fs-4 pending font-jost'>
@@ -191,7 +191,7 @@ const OrderTracking = () => {
                                 <div>
                                   {t('order')}
                                   <span className='fs-5 px-1'>
-                                    RRT-O ( {order?.order_id})
+                                    NGF-O ( {order?.order_id})
                                   </span>
                                   {t('status')}
                                   <span className='ps-2 text-primary fs-4 approved'>
@@ -222,7 +222,7 @@ const OrderTracking = () => {
                                 <div>
                                   {t('order')}
                                   <span className='fs-5 px-1'>
-                                    RRT-O ( {order?.order_id} )
+                                    NGF-O ( {order?.order_id} )
                                   </span>
                                   {t('status')}
                                   <span className='ps-2 text-primary fs-4 rejected'>
@@ -253,7 +253,7 @@ const OrderTracking = () => {
                                 <div>
                                   {t('order')}
                                   <span className='fs-5 px-1'>
-                                    RRT-O ( {order?.order_id} )
+                                    NGF-O ( {order?.order_id} )
                                   </span>
                                   {t('status')}
                                   <span className='ps-2 text-primary fs-4'>
@@ -281,7 +281,7 @@ const OrderTracking = () => {
                                 <div>
                                   {t('order')}
                                   <span className='fs-5 px-1'>
-                                    RRT-O ( {order?.order_id})
+                                    NGF-O ( {order?.order_id})
                                   </span>
                                   {t('status')}
                                   <span className='ps-2 text-primary fs-4'>

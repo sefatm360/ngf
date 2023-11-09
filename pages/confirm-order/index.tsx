@@ -25,7 +25,7 @@ import { BsArrowRight } from 'react-icons/bs';
 const ConfirmOrderLayout = () => {
   const { user } = useAuthContext();
   const router = useRouter();
-  const { queen: cartQueenId } = router.query;
+  const { me: cartQueenId } = router.query;
   const [error, setError] = useState<string>('');
   const [loading, setLoading] = useState<boolean>(false);
   const [otpState, setOtpState] = useState<boolean>(false);

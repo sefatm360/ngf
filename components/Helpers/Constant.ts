@@ -1,6 +1,5 @@
-// export const url = 'http://192.168.0.240:4001';
 // export const url = 'https://hajjmanagment.online';
-export const url = 'http://43.204.253.252';
+export const url = 'http://192.168.0.237:4001';
 
 // products constant
 export const FETCH_PRODUCTS_SUCCESS = 'FETCH_PRODUCTS_SUCCESS';

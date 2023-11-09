@@ -44,7 +44,7 @@ const DailyDeals = ({ homeDeals }: any) => {
           </div>
 
           <div className='deals-options'>
-            {homeDeals.map((singleHomeDeal: any, index: any) => (
+            {homeDeals?.map((singleHomeDeal: any, index: any) => (
               <DailyDealsBanner category={singleHomeDeal} key={index} />
             ))}
           </div>

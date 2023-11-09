@@ -41,6 +41,8 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => {
     const res = await fetch(`${url}/api/content/get/images/slider`);
     sliderBanner = await res.json();
 
+    console.log({ sliderBanner });
+
     // fetch daily deals
     const categoryList: any = [
       {
@@ -83,29 +85,28 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => {
           url + `/api/admin/product/get/all/by-category/${item.categoryName}`;
       }
       const resNewData = await fetch(`${uri}?limit=10&skip=0`);
-      const newData = await resNewData.json();
+
+      const newData = await resNewData?.json();
 
       const dealsRes = await fetch(
         `${url}/api/content/get/images/${item.banner}`
       );
-      const dealsBanner = await dealsRes.json();
+      const dealsBanner = await dealsRes?.json();
 
-      homeDeals.push({
+      homeDeals?.push({
         deal: item,
-        data: newData.data,
-        banner: dealsBanner.data.img,
+        data: newData?.data || null,
+        banner: dealsBanner?.data?.img || null,
       });
     }
 
     // fetch training
-    const resCourse = await fetch(
-      `${url}/otw-training/api/training/get/all?limit=10&skip=0`
-    );
-    const courseData = await resCourse.json();
+    // const resCourse = await fetch(
+    //   `${url}/otw-training/api/training/get/all?limit=10&skip=0`
+    // );
+    // const courseData = await resCourse.json();
 
-    if (courseData) {
-      allCourses = courseData.data;
-    }
+    allCourses = [];
   } catch (err) {}
 
   return {
