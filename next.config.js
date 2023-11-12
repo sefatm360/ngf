@@ -6,10 +6,10 @@ const nextConfig = {
   images: {
     remotePatterns: [
       {
-        protocol: 'http',
+        protocol: 'https',
         // hostname: '192.168.0.234:4001',
-        hostname: '192.168.0.237:4001',
-        // hostname: 'hajjmanagment.online',
+        // hostname: '192.168.0.237:4001',
+        hostname: 'server.sunderbanmart.com',
         port: '',
         pathname: '/*',
       },
@@ -24,6 +24,7 @@ const nextConfig = {
       'http://192.168.0.234:4001/',
       'http://192.168.0.240:4001/',
       'http://192.168.0.237:4001/',
+      'server.sunderbanmart.com',
     ],
   },
   i18n,
